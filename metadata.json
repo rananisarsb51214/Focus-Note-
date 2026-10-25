@@ -1,0 +1,6 @@
+{
+  "name": "Focus Notes",
+  "description": "A minimalist, distraction-free markdown notes application with instant search, live preview, and persistent local storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
