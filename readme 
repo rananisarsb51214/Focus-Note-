@@ -1,0 +1,110 @@
+Focus Notes 📝
+
+A minimal, keyboard-friendly Markdown notes app.
+
+Focus Notes is a distraction-free writing application for creating, editing, searching, and organizing notes. It combines a simple sidebar with a Markdown editor and live preview, keeping your writing workflow fast and focused.
+
+✨ Features
+
+- Create & Delete Notes — Manage notes with a simple interface.
+- Markdown Editor — Write with headings, lists, links, and code blocks.
+- Preview Mode — Switch between Markdown source and rendered content.
+- Instant Search — Search note titles and content as you type.
+- Local Persistence — Keep notes saved in your browser using LocalStorage.
+- Last-Edited Timestamps — Track recent changes.
+- Keyboard Shortcuts — Navigate and work efficiently.
+- Responsive Design — Designed for desktop, tablet, and mobile.
+- Privacy-Focused — Notes remain in your browser unless you add a synchronization service.
+
+🛠️ Tech Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- LocalStorage API
+- Markdown rendering
+- Lucide icons
+
+The stack above describes the planned implementation; update it to match the actual repository.
+
+🚀 Getting Started
+
+Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+- Git
+
+Installation
+
+Clone your repository:
+
+git clone YOUR_REPOSITORY_URL
+cd YOUR_REPOSITORY_FOLDER
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Create a production build:
+
+npm run build
+
+Run available checks:
+
+npm run
+
+Use the scripts listed in "package.json" for testing and linting.
+
+⌨️ Keyboard Shortcuts
+
+Shortcut| Action
+"Ctrl/Cmd + N"| Create a note
+"Ctrl/Cmd + K"| Focus search
+"Ctrl/Cmd + S"| Save changes
+"Escape"| Close a dialog or exit an applicable interaction
+"Tab" / "Shift + Tab"| Navigate controls
+
+Shortcuts depend on the implemented application version.
+
+💾 Data Storage
+
+Notes are stored locally in the browser.
+
+- No account is required for local use.
+- Clearing browser data can remove locally stored notes.
+- LocalStorage is not a cloud backup.
+- Cross-device synchronization requires an additional backend or synchronization service.
+
+Recommendation: Export and back up important notes before clearing browser data or changing storage implementations.
+
+🔐 Security
+
+- Sanitize rendered Markdown.
+- Block unsafe links and script execution.
+- Validate stored data before loading it.
+- Handle storage failures without reporting false save success.
+- Keep private notes and credentials out of public repositories.
+
+🗺️ Roadmap
+
+- [ ] Markdown editor and preview
+- [ ] Instant search
+- [ ] Note creation and deletion
+- [ ] Automatic persistence
+- [ ] Keyboard accessibility
+- [ ] Export and import notes
+- [ ] Optional encrypted cloud synchronization
+- [ ] Automated tests
+
+📄 License
+
+Choose a license before distributing this project. Until a license is added, do not assume others have permission to reuse or redistribute the source code.
+
+---
+
+Focus Notes — Write clearly. Think freely. Stay focused.
